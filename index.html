@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pé de Fava</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="normal">
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img src="img/logo.PNG" alt="Logo" />
+          </a>
+        </div>
+        <ul class="navbar-nav-left">
+          <li><a href="index.html" accesskey="h">Home</a></li>
+          <li><a href="" accesskey="a">Cardapio</a></li>
+          <li><a href="" accesskey="t">Horários</a></li>
+          <li><a href="" accesskey="U">Eventos</a></li>
+      </ul>      
+      </div>
+    </nav>
+
+    <center>
+      <div class="carrossel">
+        <div class="container">
+          <img src="img/Slide/1.png" alt="Slide 1" />
+          <img src="img/Slide/2.png" alt="Slide 2" />
+          <img src="img/Slide/3.png" alt="Slide 3" />
+          <img src="img/Slide/4.png" alt="Slide 4" />
+        </div>
+      </div>
+      <br>
+      <div vw class="enabled">
+        <a href="#" accesskey="v" onclick="document.querySelector('[vw-access-button]').click(); return false;">
+          <div vw-access-button class="active"></div>
+        </a>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    </center>
+    <br>
+    <br>
+    <div class="menu">
+      <div class="dish">
+        <h2>Feijoada</h2>
+        <img src="img/Feijoada.jpg" alt="">
+        <p>Prato brasileiro de feijão preto com carne de porco, servido com arroz, couve e farofa.</p>
+        <button onclick="lerDescricao('Prato brasileiro de feijão preto com carne de porco, servido com arroz, couve e farofa.')">Ouvir Descrição</button>
+    </div>
+      <div class="dish">
+          <h2>Churrasco</h2>
+          <img src="img/Churrasco.jfif" alt="">
+          <p>Carne assada na brasa com arroz, salada e farofa.</p>
+          <br>
+          <button onclick="lerDescricao('Carne assada na brasa com arroz, salada e farofa.')">Ouvir Descrição</button>
+      </div>
+      <div class="dish">
+          <h2>Lasanha</h2>
+          <img src="img/Lasanha.jpg" alt="">
+          <p> Carne, queijo e molho branco ou tomate, gratinada no forno.</p>
+          <br>
+          <button onclick="lerDescricao('Carne, queijo e molho branco ou tomate, gratinada no forno.')">Ouvir Descrição</button>
+      </div>
+      <div class="dish">
+          <h2>Salmão</h2>
+          <img src="img/Salmão.jpg" alt="">
+          <p>Peixe de sabor suave e textura macia, frequentemente assado ou grelhado.</p>
+          <button onclick="lerDescricao('Peixe de sabor suave e textura macia, frequentemente assado ou grelhado.')">Ouvir Descrição</button>
+      </div>
+      <div class="dish">
+          <h2>Spaghetti</h2>
+          <img src="img/spaghetti.jpg" alt="">
+          <p>Molho de tomate, carne, ou molho branco.</p>
+          <br>
+          <button onclick="lerDescricao('Molho de tomate, carne, ou molho branco.')">Ouvir Descrição</button>
+      </div>
+      <div class="dish">
+          <h2>Canjica</h2>
+          <img src="img/Canjica.jpg" alt="">
+          <p>Doce brasileiro feito com milho, leite, açúcar e especiarias.</p>
+          <br>
+          <button onclick="lerDescricao('Doce brasileiro feito com milho, leite, açúcar e especiarias.')">Ouvir Descrição</button>
+      </div>
+      <div class="dish">
+        <h2>Coxinha</h2>
+        <img src="img/coxinha.jpg" alt="">
+        <p>Salgado brasileiro em forma de gota, recheado com frango desfiado e empanado.</p>
+        <br>
+        <button onclick="lerDescricao('Salgado brasileiro em forma de gota, recheado com frango desfiado e empanado.')">Ouvir Descrição</button>
+    </div>
+    <div class="dish">
+        <h2>Costela</h2>
+        <img src="img/Costela.jpg" alt="">
+        <p>Carne de costela assada ou grelhada, com sabor robusto e textura suculenta.</p>
+        <br>  
+        <button onclick="lerDescricao('Carne de costela assada ou grelhada, com sabor robusto e textura suculenta.')">Ouvir Descrição</button>
+    </div>
+    <div class="dish">
+        <h2>Peixe Assado</h2>
+        <img src="img/peixe.jpg" alt="">
+        <p>Peixe temperado e assado, mantendo seu sabor delicado e nutritivo.</p>
+        <br>
+        <button onclick="lerDescricao('Peixe temperado e assado, mantendo seu sabor delicado e nutritivo.')">Ouvir Descrição</button>
+    </div>
+    <div class="dish">
+        <h2>Bife acebolado</h2>
+        <img src="img/bife.webp" alt="">
+        <p>Bife frito com cebolas caramelizadas, típico da cozinha brasileira.</p>
+        <br>
+        <button onclick="lerDescricao('Bife frito com cebolas caramelizadas, típico da cozinha brasileira.')">Ouvir Descrição</button>
+    </div>
+  </div>
+
+    <br>
+    <div>
+      <div class="divider"></div>
+      <footer class="footer">
+        <div class="footer-container">
+          <p>© 2024 Pé de Fava. Todos os direitos reservados.</p>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      // Slider functionality
+      const box = document.querySelector(".container");
+      const imagens = document.querySelectorAll(".container img");
+
+      let contador = 0;
+
+      function slider() {
+        contador++;
+
+        if (contador > imagens.length - 1) {
+          contador = 0;
+        }
+
+        box.style.transform = `translateX(${-contador * 100}%)`;
+      }
+
+      setInterval(slider, 2000);
+
+      function lerDescricao(descricao) {
+            var synth = window.speechSynthesis;
+            var utterThis = new SpeechSynthesisUtterance(descricao);
+            utterThis.lang = 'pt-BR';
+            synth.speak(utterThis);
+        }
+
+
+    </script>
+  </body>
+</html>
